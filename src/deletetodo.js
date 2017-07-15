@@ -4,7 +4,7 @@ export default class DelTodoItem extends Component {
     render(){
     return (
         <li>
-            <input type="text" className="listcxt" defaultValue={this.props.todos.title} disabled/>
+            <div className='listcxt'>{this.props.todos.title}</div>
             <button className="getback" onClick={this.getback.bind(this)}>撤销</button>
         </li>
     )
