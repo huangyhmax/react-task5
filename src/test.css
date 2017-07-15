@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #323548;
+}
+.aa{
+    width: 1000px;
+    margin: 30px auto;
+    height: 90vh;
+    background-color: #e8573c;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    line-height:60px;
+}
+.left{
+    background-color: #b94430;
+    float: left;
+    width: 200px;
+    height: 75vh;
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    border-radius: 20px 0 0 20px;
+}
+
+.createnoteclass{
+    background-color: #873424;
+    height:40px;
+    width: 100%;
+}
+.createnoteclass .menu{
+    display: inline-block;
+    background-color: #323548;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -36px;
+}
+.createnoteclass>.tips{
+    font-size: 12px;
+    line-height: 40px;
+    display: inline-block;
+    top: -16px;
+    position: relative;
+}
+.createnoteclass .triangle{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    left: 178px;
+    top: -40px;
+    border-top: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+.noteclass{
+    border: 2px solid #323548;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px 8px 8px 20px;
+    line-height: 30px;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    z-index: 10;
+    left: 67px;
+}
+.noteclass.active{
+   background-color: #323548;
+}
+
+.noteclass>.note-item{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #b94430;
+    color: #fff;
+    position: relative;
+    left: -13px;
+    outline: none;
+}
+
+.noteclass>.note-item.active{
+   background-color: #323548;
+   color: #fff;
+}
+
+.left .addlistclass{
+    border:3px dotted #323548;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.addlistclass .add{
+    display: inline-block;
+    border: 2px dotted #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.right{
+    background-color: #EE7665;
+    height: 75vh;
+    width: 700px;
+    position: absolute;
+    top: 70px;
+    right:45px;
+    display:none;
+    left: 150px;
+}
+.right.hover{
+    display: block;
+}
+.right-top{
+    border-bottom: 2px solid #e9583d;
+    height: 80px;
+}
+
+.right .suggetion{
+    font-size:20px;
+    position: absolute;
+    top:20px;
+    right: 125px;
+    width: 450px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+}
+
+.list-normal{
+    border-bottom: 2px solid #e9583d;
+    height: 50px;
+    width: 650px;
+    margin: 0 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+.list-normal .notecontent{
+    width: 580px;
+    height: 40px;
+    border: none;
+    background-color: #b94430;
+    color: #fff;
+    outline: none;
+    border-radius: 2px;
+
+}
+.addlist{
+    border: 4px dotted #323548;
+    margin: 20px auto;
+    width: 180px;
+    height: 20px;
+    padding: 10px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.addlist .add_{
+    display: inline-block;
+    border: 2px dotted #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 8px;
+   
+}
